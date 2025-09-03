@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <p>Web Developer | Designer | Programmer</p>
+    <button id="themeToggle" class="btn">Switch to Dark Mode</button>
+  </header>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="container">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>This is my first amazing project.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>This is my second amazing project.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>This is my third amazing project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
